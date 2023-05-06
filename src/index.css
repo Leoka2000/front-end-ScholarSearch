@@ -1,0 +1,120 @@
+/* makes sizing simpler */
+@import url('https://fonts.googleapis.com/css?family=Barlow:100,300,400,500,600,700,800,900&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* remove default spacing */
+/* force styling of type through styling, rather than elements */
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+:root {
+    --blue: #007bff;
+--indigo: #6610f2;
+--purple: #6f42c1;
+--pink: #e83e8c;
+--red: #dc3545;
+--orange: #fd7e14;
+--yellow: #ffc107;
+--green: #28a745;
+--teal: #20c997;
+--cyan: #17a2b8;
+--white: #fff;
+--gray: #6c757d;
+--gray-dark: #343a40;
+--primary: #007bff;
+--secondary: #6c757d;
+--success: #28a745;
+--info: #17a2b8;
+--warning: #ffc107;
+--danger: #dc3545;
+--light: #f8f9fa;
+--dark: #343a40;
+--breakpoint-xs: 0;
+--breakpoint-sm: 576px;
+--breakpoint-md: 768px;
+--breakpoint-lg: 992px;
+--breakpoint-xl: 1200px;
+}
+/* dark mode user-agent-styles */
+
+html {
+  color-scheme: dark light;
+}
+
+/* min body height */
+
+body {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Rubik;
+    color: #212529;
+    background-color: #f7f7f9;
+    text-align: left;
+    
+ 
+}
+
+/* responsive images/videos */
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../public/fonts/Rubik/static/Rubik-Light.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Rubik';
+    src: url('../public/fonts/Rubik/static/Rubik-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Rubik';
+    src: url('../public/fonts/Rubik/static/Rubik-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+  
+ 
+@font-face {
+    font-family: 'Rubik';
+    src: url('../public/fonts/Rubik/static/Rubik-SemiBold.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Rubik';
+    src: url('../public/fonts/Rubik/static/Rubik-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+  
+ 
+@font-face {
+    font-family: 'Rubik';
+    src: url('../public/fonts/Rubik/static/Rubik-ExtraBold.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+  
+ 
