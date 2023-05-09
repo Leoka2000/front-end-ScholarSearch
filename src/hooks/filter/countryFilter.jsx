@@ -6,7 +6,7 @@ const CountryFilter = ({onCountrySelect}) => {
     const handleSelect = (e) => {
         onCountrySelect(e.target.value);
     }
-   
+
 
     return (
         <>
@@ -19,6 +19,10 @@ const CountryFilter = ({onCountrySelect}) => {
                     <option className='dropdown-content' value="Germany">Germany</option>
                     <option className='dropdown-content' value="Canada">Canada</option>
                     <option className='dropdown-content' value="Spain">Spain</option>
+                    <option className='dropdown-content' value="Finland">Finland</option>
+                    <option className='dropdown-content' value="Romania">Romania</option>
+                    <option className='dropdown-content' value="UK">UK</option>
+                    <option className='dropdown-content' value="US">US</option>
                     <option className='dropdown-content' value="Hungary">Hungary</option>
                 </select>
             </div>
