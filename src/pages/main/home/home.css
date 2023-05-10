@@ -236,4 +236,16 @@ form > button:hover {
         left: 10rem;
         padding-bottom: 10rem;
     }
+    select {
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+        padding: 1rem 0 1rem 0.75rem;
+        border:#999999 1px solid;
+        width: 100%;
+        cursor: pointer;
+        font-size: 0.9rem;
+        border-color: #999999 !important;
+        border-style: none;
+        color: #999999 !important;
+        background-color: #ffffff !important;
+    }
 }
