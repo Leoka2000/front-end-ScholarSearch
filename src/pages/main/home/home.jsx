@@ -1,7 +1,7 @@
 import { useState, useEffect, Suspense } from 'react'
 import './home.css'
 import CountryFilter from '../../../hooks/filter/countryFilter'
-import Content from '../../../hooks/content/content'
+import Content from '../../content/content'
 import Axios from 'axios'
 import FundingFilter from '../../../hooks/filter/fundingFilter'
 import StudyLevelFilter from '../../../hooks/filter/studyLevelFilter'
@@ -83,15 +83,9 @@ const Home = () => {
                                     return (
                                         <Content
                                             keyNumber={key}
-                                            id={val.id}
                                             image={val.image}
                                             name={val.name}
                                             country={val.country}
-                                            funding={val.funding}
-                                            level={val.level}
-                                            style={val.style}
-                                            description={val.description}
-                                            link={val.link}
                                         />
                                     );
                                 })}

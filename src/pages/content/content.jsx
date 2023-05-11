@@ -3,15 +3,10 @@ import { useNavigate } from 'react-router-dom'
 import { useForm } from 'react-hook-form'
 
 const Content = ({ keyNumber,
-    id,
     image,
     name,
     country,
-    funding,
-    level,
-    style,
-    description,
-    link }) => {
+}) => {
 
     const {
         register,
@@ -23,9 +18,8 @@ const Content = ({ keyNumber,
     const navigate = useNavigate()
 
     const onSubmit = (data) => {
-        navigate("/scholarship-single", { replace: true, state: {data}})
-
-      };
+        navigate("/scholarship-single", { replace: true, state: { data } })
+    };
 
     return (
         <div className='right-row'>
@@ -34,12 +28,12 @@ const Content = ({ keyNumber,
             </div>
             <div className='content-text-wrapper'>
                 <h1>{name}</h1>
-                <h4>Type of funding:</h4>
-                <h2>{funding}</h2>
+                <h4>Location of study:</h4>
+                <h2>{country}</h2>
             </div>
             <form onSubmit={handleSubmit(onSubmit)} >
-                    <button type={"radio"} {...register("submit-button")} value={`${keyNumber}`}>More information</button>
-                </form>
+                <button type={"radio"} {...register("submit-button")} value={`${keyNumber}`}>More information</button>
+            </form>
         </div>
     )
 }

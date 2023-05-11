@@ -39,6 +39,7 @@ const IndividualPages = () => {
     }, 1000);
   }, [keyValue]);
 
+  
   if (loading) {
     return (
       <div className='beat-loader-wrapper'>
@@ -75,7 +76,7 @@ const IndividualPages = () => {
 
         <div className='single-btn-wrapper'>
           <a style={{ textDecoration: 'none' }} target='_blank' href={`${link}`}>
-            <FaInternetExplorer/>
+            <FaInternetExplorer />
             <p> See webpage</p>
           </a>
           <Link style={{ textDecoration: 'none' }} to='/'>
