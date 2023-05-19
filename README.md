@@ -54,7 +54,7 @@ This function can be found inside the <IndividualPages/> component and it is use
 
 <img src="./src/assets/onSubmit.png" style="width: 700px"><br>
 
-This function can be found inside the <Content/> component it is part of react-hook-form's API, it has "data" as its parameter. In this case, the parameter will carry only the {keyValue} variable, which will be passed to the <IndividualPages> component, which will be used to conditionally access different indexes of our REST API.
+This function can be found inside the <Content> component it is part of react-hook-form's API, it has "data" as its parameter. In this case, the parameter will carry only the {keyValue} variable, which will be passed to the <IndividualPages> component, which will be used to conditionally access different indexes of our REST API.
 
 
  ## React Hooks:
