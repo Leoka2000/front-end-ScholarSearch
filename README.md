@@ -4,10 +4,6 @@
 **Client:** React / React Hook Form / Axios
 
 **Server** PHP / Laravel
-## Instalation:
-```bash
-  npx create-react-app
-```
 
 ## Utilization
 This project was created as part of a startup called Easy Tramitt. This company has the mission to help Brazilian students get international scholarships abroad. Therefore, ScholarSearch helps students to find the best opportunities
